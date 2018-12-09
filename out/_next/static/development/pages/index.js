@@ -67,7 +67,7 @@ var Index = function Index() {
       lineNumber: 2
     },
     __self: this
-  }, "Leap Louder - build in React with Next.js");
+  }, "Leap Louder - built in React with Next.js");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
