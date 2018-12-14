@@ -2,9 +2,52 @@
 <html>
   <head>
     <meta charSet="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <style>
+     body {
+         font-family: 'Montserrat', sans-serif;
+	 font-weight: 400;
+	 text-align: center;
+	 letter-spacing: -1.23px;
+     }
+     h1 {
+	 font-weight: 300;
+	 font-size: 11vh;
+     }
+     p {
+	 font-size: 6vh;
+     }
+     .louder {
+	 color: #ff1161;
+     }
+     button {
+	 font-size: 3vh;
+	 border: 1px solid black;
+	 background: #fff;
+	 padding: 10px 30px;
+     }
+     .logo {
+	 position: fixed;
+	 margin: 0;
+	 bottom: 32px;
+	 left: 40px;
+	 text-align: left;
+     }
+     a {
+	 color: #000;
+     }
+     .email {
+	 position: fixed;
+	 bottom: 32px;
+	 right: 40px;
+     }
+    </style>
   </head>
   <body>
-    <h1>We can help you quickly go from idea to MVP*</h1>
-    <p>* Minimum Viable Product or if you like Minimum Wowable Product</p>
+    <h1>We can help you <span class="louder">quickly</span> go from <span style="white-space: nowrap">idea to MVP*</span></h1>
+    <p>What is your idea?</p>
+    <button>Tell us more</button>
+    <h2 class="louder logo">Leap<br />Louder</h2>
+    <a href="mailto:hello@leaplouder.com" class="email">hello@leaplouder.com</a>
   </body>
 </html>
